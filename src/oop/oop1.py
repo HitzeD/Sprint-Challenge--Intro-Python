@@ -27,7 +27,7 @@ class FlightVehicle(Vehicle):
 	pass
 
 # Inherits from FlightVehicle
-class StarShip(FlightVehicle):
+class Starship(FlightVehicle):
 	pass
 
 # Inherits from FlightVehicle
@@ -43,5 +43,5 @@ class Car(GroundVehicle):
 	pass
 
 # inherits from GroundVehicle
-class MotorCycle(GroundVehicle):
+class Motorcycle(GroundVehicle):
 	pass
