@@ -5,14 +5,14 @@
 
 class GroundVehicle():
     
-	def __init__(self, num_wheels = 2):
+	def __init__(self, num_wheels = 4):
 		self.num_wheels = num_wheels
 		
 	def __str__(self):
 		return f"No. of Wheels: {self.num_wheels}"
 
 	def drive(self):
-		return "Vrrrooommm"
+		return "vroooom"
 
 class Motorcycle(GroundVehicle):
 
@@ -23,7 +23,7 @@ class Motorcycle(GroundVehicle):
 		return f"No. of Wheels: {self.num_wheels}"
 
 	def drive(self):
-		return "BRAAAAAPPPP!!!!!"
+		return "BRAAAP!!"
 	
     # TODO
 
